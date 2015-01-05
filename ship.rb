@@ -1,9 +1,9 @@
 class Ship
   attr_reader :size, :hits
 
-  def initialize(args = {})
-    @size = args.fetch(:size, 1)
-    @hits = args.fetch(:hits, 0)
+  def initialize
+    @size = 1
+    @hits = 0
   end
 
   def increase_hit_count

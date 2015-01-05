@@ -5,21 +5,11 @@ shared_examples "a battleship ship" do |desired_size|
     it "has a size of #{desired_size}" do
       expect(ship.size).to eq desired_size
     end
-
-    it "can be given a non-default size" do
-      three_space_ship = described_class.new(size: 3)
-      expect(three_space_ship.size).to eq 3
-    end
   end
 
   describe "times ship has been hit" do
-    it "has a default of 0 hits" do
+    it "keeps track of hits" do
       expect(ship.hits).to eq 0
-    end
-
-    it "can be created with hits" do
-      two_hit_ship = described_class.new(hits: 2)
-      expect(two_hit_ship.hits).to eq 2
     end
   end
 
