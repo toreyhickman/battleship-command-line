@@ -5,4 +5,4 @@ require_relative '../carrier'
 require_relative '../battleship'
 require_relative '../cruiser'
 require_relative '../submarine'
-
+require_relative '../destroyer'
