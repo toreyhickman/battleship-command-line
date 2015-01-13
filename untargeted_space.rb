@@ -1,0 +1,2 @@
+class UntargetedSpace
+end
