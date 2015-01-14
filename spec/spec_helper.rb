@@ -12,4 +12,7 @@ require_relative '../destroyer'
 
 # Require board
 require_relative '../untargeted_space'
+require_relative '../hit_space'
+require_relative '../miss_space'
 require_relative '../board'
+
