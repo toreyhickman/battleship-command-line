@@ -7,4 +7,10 @@ describe HitSpace do
       expect(hit_space.to_s).to eq "H"
     end
   end
+
+  describe '#targeted?' do
+    it 'has been targeted' do
+      expect(hit_space).to be_targeted
+    end
+  end
 end

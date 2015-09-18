@@ -8,4 +8,10 @@ describe MissSpace do
       expect(miss_space.to_s).to eq "X"
     end
   end
+
+  describe '#targeted?' do
+    it 'has been targeted' do
+      expect(miss_space).to be_targeted
+    end
+  end
 end
