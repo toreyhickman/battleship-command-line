@@ -1,5 +1,5 @@
 class MissSpace
-  def to_s
+  def identifier
     "X"
   end
 

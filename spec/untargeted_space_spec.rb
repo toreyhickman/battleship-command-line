@@ -3,9 +3,9 @@ require_relative '../untargeted_space'
 describe UntargetedSpace do
   let(:space) { UntargetedSpace.new }
 
-  describe "to_s" do
+  describe "identifier" do
     it "looks like a dash" do
-      expect(space.to_s).to eq "-"
+      expect(space.identifier).to eq "-"
     end
   end
 

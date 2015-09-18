@@ -1,5 +1,5 @@
 class UntargetedSpace
-  def to_s
+  def identifier
     "-"
   end
 

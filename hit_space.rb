@@ -1,5 +1,5 @@
 class HitSpace
-  def to_s
+  def identifier
     "H"
   end
 

@@ -3,9 +3,9 @@ require_relative '../miss_space.rb'
 describe MissSpace do
   let(:miss_space) { MissSpace.new }
 
-  describe "#to_s" do
+  describe "#identifier" do
     it "looks like an X" do
-      expect(miss_space.to_s).to eq "X"
+      expect(miss_space.identifier).to eq "X"
     end
   end
 
