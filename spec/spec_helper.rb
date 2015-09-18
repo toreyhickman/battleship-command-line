@@ -16,3 +16,5 @@ require_relative '../hit_space'
 require_relative '../miss_space'
 require_relative '../board'
 
+# Require presenters
+require_relative '../board_presenter'
