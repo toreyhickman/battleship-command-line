@@ -28,4 +28,16 @@ describe Board do
       expect { created_board.mark_miss_at 0 }.to change { created_board.spaces[0].identifier }.to "X"
     end
   end
+
+  describe "spaces as rows" do
+    it "has ten rows" do
+      expect(created_board.rows.count).to eq 10
+    end
+
+    it "has 10 spaces in each row" do
+      created_board.rows.each do |row|
+        expect(row.count).to eq 10
+      end
+    end
+  end
 end

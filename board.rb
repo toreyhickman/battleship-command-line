@@ -19,4 +19,8 @@ class Board
   def mark_miss_at(index)
     spaces[index] = MissSpace.new
   end
+
+  def rows
+    spaces.each_slice(10).to_a
+  end
 end
