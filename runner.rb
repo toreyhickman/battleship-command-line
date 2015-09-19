@@ -6,6 +6,7 @@ require_relative 'battleship'
 require_relative 'cruiser'
 require_relative 'submarine'
 require_relative 'destroyer'
+require_relative 'fleet'
 
 # Require board
 require_relative 'untargeted_space'
