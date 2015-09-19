@@ -17,6 +17,9 @@ require_relative 'board'
 # Require presenters
 require_relative 'board_presenter'
 
+# Require coordinates translator
+require_relative 'coordinates_translator'
+
 
 board = Board.create
 presenter = BoardPresenter.new(board)
