@@ -3,4 +3,8 @@ class Carrier < Ship
     super
     @size = 5
   end
+
+  def identifier
+    'A'
+  end
 end

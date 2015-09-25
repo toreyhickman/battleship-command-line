@@ -3,4 +3,8 @@ class Battleship < Ship
     super
     @size = 4
   end
+
+  def identifier
+    'B'
+  end
 end

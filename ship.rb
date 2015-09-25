@@ -7,4 +7,8 @@ class Ship
     @size = 1
     @hits = 0
   end
+
+  def identifier
+    'S'
+  end
 end

@@ -3,4 +3,8 @@ class Cruiser < Ship
     super
     @size = 3
   end
+
+  def identifier
+    'C'
+  end
 end

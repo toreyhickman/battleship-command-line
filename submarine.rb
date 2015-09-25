@@ -3,4 +3,8 @@ class Submarine < Ship
     super
     @size = 3
   end
+
+  def identifier
+    'U'
+  end
 end
