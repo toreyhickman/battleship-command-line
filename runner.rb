@@ -10,11 +10,14 @@ require_relative 'fleet'
 
 # Require board
 require_relative 'space'
+require_relative 'unoccupied_space'
+require_relative 'occupied_space'
 require_relative 'untargeted_space'
 require_relative 'hit_space'
 require_relative 'miss_space'
 require_relative 'board'
 require_relative 'target_board'
+require_relative 'fleet_board'
 
 # Require presenters
 require_relative 'board_presenter'
