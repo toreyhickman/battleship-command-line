@@ -29,3 +29,5 @@ require_relative '../board_presenter'
 # Require coordinates translator
 require_relative '../coordinates_translator'
 
+# Require placement validator
+require_relative '../placement_validator'
